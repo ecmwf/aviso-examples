@@ -1,0 +1,11 @@
+listeners:
+  - event: mars
+    request:
+      class: od
+      expver: 1
+      domain: g
+      stream: enfo
+      step: [1, 2, 3]
+    triggers:
+      - type: log
+        path: testLogMars.log

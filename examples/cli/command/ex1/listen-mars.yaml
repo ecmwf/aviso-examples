@@ -1,0 +1,12 @@
+listeners:
+  - event: mars
+    request:
+      class: od
+      expver: 1
+      domain: g
+      stream: enfo
+      step: [1, 2, 3]
+    triggers:
+      - type: command
+        working_dir: .
+        command: ./command_script.sh --json ${json}

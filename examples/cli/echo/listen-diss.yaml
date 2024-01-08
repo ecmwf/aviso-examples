@@ -1,0 +1,11 @@
+listeners:
+  - event: dissemination
+    request:
+      destination: <user_destination>
+      class: od
+      expver: 1
+      domain: g
+      stream: enfo
+      step: [1, 2, 3]
+    triggers:
+      - type: echo
