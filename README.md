@@ -35,6 +35,24 @@ source  venv/bin/activate
 pip  install  pyaviso
 ```
 
+## Configuration
+
+Before executing the example scripts in this repository, it is crucial to set up the necessary configuration files. This setup involves populating two files, `.key` and `.username`, and sourcing the `env.sh` file. All of these files are located in the root folder of the repository.
+
+### Steps for Configuration
+
+1. **Populate Credential Files**:
+   - `.key` and `.username`: These files must be appropriately filled with your credentials.
+   - To obtain these credentials, visit [ECMWF API Page](https://api.ecmwf.int/v1/key/).
+   - Once you have your credentials, place the API key in the `.key` file and your email in the `.username` file.
+
+2. **Source the Environment File**:
+   - After setting up your credentials, you need to source the `env.sh` file to load the necessary environment variables.
+   - You can do this by running the following command in the terminal from the root folder of the repository:
+     ```bash
+     source env.sh
+     ```
+
 ## Folder Structure
 In the examples folder at the root of this repository, you will find two subdirectories:
 
@@ -42,3 +60,4 @@ cli: Contains examples demonstrating how to use aviso via command-line interface
 python-api: Includes examples for running aviso using its Python API.
 
 These examples are designed to provide a practical understanding of how to integrate and utilize aviso in various scenarios. In order to provide more comprehensive explanations of the examples, each folder contains a README file.
+
