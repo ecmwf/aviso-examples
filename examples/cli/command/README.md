@@ -7,6 +7,8 @@ In this directory, you will find two key configuration files for each folder:
 
 These files are designed to help you set up listeners for different types of notifications in **aviso**.
 
+Each example is designed to showcase the usage of the command trigger, which executes a specified script or command, with the capability to pass notifications as arguments.
+
 ## Dissemination Event Listener (`listen-diss.yaml`)
 
 The `listen-diss.yaml` file is configured to listen for dissemination events. The request section of this file specifies the criteria for the dissemination events you want to trigger. It consists of various fields that you can use as filters. 
