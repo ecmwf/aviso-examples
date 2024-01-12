@@ -4,7 +4,7 @@ This repository hosts a collection of example Python scripts and configuration f
 
 ## About Aviso
 
-**aviso** is a software developed by ECMWF that allows the notification of **time-critical events** across HPC and Cloud systems in order to enable workflows among multiple domains.
+**aviso** is a software developed by ECMWF which provides **notification of time-critical data availability** events across HPC and Cloud systems in order to enable workflows among multiple domains.
 
 It allows users to: 
 * Define events that require notification
